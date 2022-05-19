@@ -24,9 +24,10 @@ for a in range(5):
     userIn = input()
     if userIn == answer:
         score += 1
-        print('Correct')
+        print('Correct! Score: ' + str(score) + '\n')
     else:
         print('Incorrect. Correct answer: ' + answer)
         if "T" in userIn:
             print('Remember, mRNA doesn\'t have T\'s!')
-print('Your final score is: ' + score)
+        print('\n')
+print('Your final score is: ' + str(score))
